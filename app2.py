@@ -7,6 +7,9 @@ st.text(f'My string is {my_str}')
 
 click=st.button("press me")
 
+if click:
+  st.snow()
+
 def f(my_str,threshold=10):
   if len(my_str)>threshold:
     return ( "long string")
