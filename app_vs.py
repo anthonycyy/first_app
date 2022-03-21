@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Hello")
 st.header("Data science is the best")
 my_str=st.text_input("name?")
-threshold=int(st.number_input("preferred length?"))
+threshold=st.number_input("preferred length?")
 
 click_ans=st.button("enter")
 def f(my_str,threshold):
@@ -14,7 +14,7 @@ def f(my_str,threshold):
     else:
         st.text( "short string")
 if click_ans:
-    f(my_str)
+    f(my_str,threshold)
 
 click=st.button("snow")
 arr=[i for i in range(10)]
