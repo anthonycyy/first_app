@@ -7,7 +7,6 @@ st.text(f'My string is {my_str}')
 
 def f(my_str):
   if len(my_str)>10:
-    return "long string"
+    st.text( "long string")
   else:
-    return "short string"
-st.text(f(my_str))
+    st.text( "short string")
