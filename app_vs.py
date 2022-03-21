@@ -7,7 +7,8 @@ my_str=st.text_input("name?")
 st.text(f'My string is {my_str}')
 
 click=st.button("press me")
-bar=st.sidebar.select_slider('slide it',options=['a','b'])
+arr=[i for i in range(10)]
+bar=st.sidebar.select_slider('slide it',options=arr)
 
 if click:
   st.snow()
