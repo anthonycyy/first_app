@@ -10,4 +10,4 @@ def f(my_str,threshold=10):
     return ( "long string")
   else:
     return ( "short string")
-st.print(f(my_str))
+st.text(f(my_str))
