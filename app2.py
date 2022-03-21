@@ -10,3 +10,4 @@ def f(my_str):
     st.text( "long string")
   else:
     st.text( "short string")
+f(my_str)
