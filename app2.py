@@ -5,6 +5,8 @@ st.header("DS4 is the best")
 my_str=st.text_input("name?")
 st.text(f'My string is {my_str}')
 
+click=st.button("press me")
+
 def f(my_str,threshold=10):
   if len(my_str)>threshold:
     return ( "long string")
