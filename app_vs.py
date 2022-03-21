@@ -4,10 +4,10 @@ import pandas as pd
 st.title("Hello")
 st.header("Data science is the best")
 my_str=st.text_input("name?")
-# st.text(f'My string is {my_str}')
+threshold=st.number_input("preferred length?")
 
 click_ans=st.button("enter")
-def f(my_str,threshold=10):
+def f(my_str,threshold):
     st.text(f'My string is {my_str}')
     if len(my_str)>threshold:
         st.text( "long string")
