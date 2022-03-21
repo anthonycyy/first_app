@@ -12,6 +12,7 @@ bar=st.sidebar.select_slider('slide it',options=arr)
 
 if click:
   st.snow()
+  st.text('snow is coming')
 
 def f(my_str,threshold=10):
   if len(my_str)>threshold:
