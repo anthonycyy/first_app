@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Welcome to mark six")
 st.header("Pick 6 numbers")
 my_nums=[]
-for _ in range(1):
+for _ in range(2):
     number=st.number_input("Input a number: ")
     my_nums.append(number)
 # click_ans=st.button("enter")
