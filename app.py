@@ -10,7 +10,7 @@ for i in range(6):
     number=st.number_input(input_text,step=1,key=i)
     my_nums.append(number)
 input_stext="Input a special number (from 1 to {}):".format(49)
-my_special_number=st.number_input(input_stext,step=1)
+my_special_number=st.number_input(input_stext,step=1,key=6)
 click=st.button("Start drawing: ")
 all_nums=[i+1 for i in range(49)]
 def draw_mark_6(my_nums,my_special_number):
