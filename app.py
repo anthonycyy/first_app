@@ -17,9 +17,9 @@ def draw_mark_6(my_nums,my_special_number):
     nums=list(np.random.choice(all_nums,size=7,replace=False))
     nums,special_num=nums[:-1],nums[-1]
     st.text("numbers drawn are:")
-    st.text(nums,special_num)
+    st.text([nums,special_num])
     st.text("your numbers are: ")
-    st.text(my_nums,my_special_number)
+    st.text([my_nums,my_special_number])
     nums=set(nums)
     my_nums=set(my_nums)
     if nums==my_nums:
