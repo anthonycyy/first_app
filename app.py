@@ -12,6 +12,6 @@ click=st.button("Start drawing: ")
 all_nums=[i+1 for i in range(49)]
 def draw_mark_6():
     all_nums=np.random.choice(all_nums,size=6,replace=False)
-    print(all_nums)
+    st.text(all_nums)
 if click:
     draw_mark_6()
