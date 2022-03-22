@@ -24,4 +24,4 @@ def draw_mark_6(my_nums):
     else:
         return "fail"
 if click:
-    draw_mark_6()
+    draw_mark_6(my_nums)
