@@ -11,7 +11,7 @@ for i in range(6):
 click=st.button("Start drawing: ")
 all_nums=[i+1 for i in range(49)]
 def draw_mark_6():
-    all_nums=np.random.choice(all_nums,size=6,replace=False)
-    st.text(all_nums)
+    nums=np.random.choice(all_nums,size=6,replace=False)
+    st.text(nums)
 if click:
     draw_mark_6()
