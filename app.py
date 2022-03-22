@@ -2,10 +2,10 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.title("Welcome to mark six")
-st.header("Pick 6 numbers")
+st.title("Welcome to my mark six")
 my_nums=[]
 size=st.number_input("Input size:",step=1)
+st.header("Pick {} numbers".format(size))
 for i in range(size):
     input_text="Input a number (from 1 to {}):".format(49)
     number=st.number_input(input_text,step=1,key=i)
